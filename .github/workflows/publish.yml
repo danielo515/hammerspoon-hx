@@ -8,7 +8,6 @@ jobs:
       contents: write # to create release commit 
       pull-requests: write # to create release PR 
     runs-on: ubuntu-latest
-    needs: build
     outputs:
       # expose release.outputs.released for the "publish" job
       released: ${{ steps.release.outputs.release_created  }} 
