@@ -1,0 +1,18 @@
+{
+  "name": "hammerspoon-hx",
+  "url": "https://github.com/danielo515/hammerspoon-hx",
+  "license": "MIT",
+  "tags": [
+    "hammerspoon",
+    "externs"
+  ],
+  "description": "Create hammerspoon plugins and configs using Haxe",
+  "version": "1.0.0",
+  "classPath": "src/",
+  "releasenote": "First release",
+  "contributors": [
+    "danielo515"
+  ],
+  "dependencies": {},
+  "main": "hammerspoon.Hammerspoon"
+}
