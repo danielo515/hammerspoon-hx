@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/danielo515/hammerspoon-hx/compare/v1.1.1...v1.1.2) (2023-05-20)
+
+
+### Bug Fixes
+
+* stupid case error ([15a04f9](https://github.com/danielo515/hammerspoon-hx/commit/15a04f982ba9c994e77346cd6865cbe8b76be6a8))
+
 ## [1.1.1](https://github.com/danielo515/hammerspoon-hx/compare/v1.1.0...v1.1.1) (2023-05-20)
 
 
