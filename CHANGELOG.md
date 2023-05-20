@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/danielo515/hammerspoon-hx/compare/v1.1.2...v1.1.3) (2023-05-20)
+
+
+### Bug Fixes
+
+* include onnly the necessary on the zip ([a690966](https://github.com/danielo515/hammerspoon-hx/commit/a6909663e2252f9dce79f776726d427639311eb7))
+
 ## [1.1.2](https://github.com/danielo515/hammerspoon-hx/compare/v1.1.1...v1.1.2) (2023-05-20)
 
 
