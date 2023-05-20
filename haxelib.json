@@ -9,7 +9,7 @@
   "description": "Create hammerspoon plugins and configs using Haxe",
   "version": "1.1.0",
   "classPath": "src/",
-  "releasenote": "First release",
+  "releasenote": "fix folder naming",
   "contributors": [
     "danielo515"
   ],
