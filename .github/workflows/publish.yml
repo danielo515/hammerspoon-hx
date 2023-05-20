@@ -27,12 +27,13 @@ jobs:
     if: needs.release.outputs.released
     steps:
       - uses: actions/checkout@v3
+      - run: |
+          zip hammerspoon-hx.zip -r src CHANGELOG.md haxelib.json LICENSE README.md
       - uses: krdlab/setup-haxe@v1
         with:
           haxe-version: 4.2.5
       - run: |
-          haxe -version
-          haxelib --debug submit . "$HAXELIB_PASSWORD"
+          haxelib submit hammerspoon-hx.zip "$HAXELIB_PASSWORD"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           HAXELIB_PASSWORD: ${{ secrets.HAXELIB_PASSWORD }}
